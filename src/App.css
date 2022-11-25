@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Rye&display=swap');
+
+#root {
+  max-width: 100%;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+.App {
+  height: 75vh;
+  padding: 0;
+}
+body {
+
+  background-image: linear-gradient(rgba(0, 251, 255, 0.1),rgba(255, 255, 255, 0.1), rgba(199, 3, 3, 0.1), rgba(0, 0, 0, 0.6)), url("./assets/imgbg2.jpg");
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+/*   background-color: rgb(176, 30, 30);
+ */  margin: 0;
+  padding: 0;
+}
+
+
+
+h1, h2, .acerca {
+  font-family: 'Rye';
+}
+
+h1 {
+  font-size: 30rem;
+  line-height: 1rem;
+  color: rgba(255, 255, 255, 0.7); 
+   
+  padding: 50px;
+  letter-spacing: -10px;
+  text-shadow: 10px 10px 10px rgba(0, 0, 0, 0.3); 
+}
+h2 {
+  font-size: 10rem;
+  margin: 0;
+  letter-spacing: -10px;
+  line-height: 1rem;
+  color: rgba(0, 0, 0, 0.5);
+  text-shadow: 0px 0px 10px rgba(255, 255, 255, 0.3);
+}
+
+iframe {
+  border: 0;
+  width: 40%;
+}
+.reproductor {
+  text-align: right;
+  padding: 0 15px 0 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  
+}
+.acerca {
+
+  color: white;
+  font-weight: bold;
+  font-size: 2rem;
+  text-decoration: none;
+  text-shadow: 3px 3px 3px black;
+}
